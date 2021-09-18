@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color: #222;
+    --link-color-hover: #ec5840;
+}
+
+body.active {
+    --body-bg: #212529;
+    --body-color: #f3f3f3;
+    --link-color: #37f012;
+    --link-color-hover: #3cc368;
+}
+
+body {
+    background-color: var(--body-bg);
+    transition: all .7s ease-in-out;
+    color: var(--body-color);
+}
